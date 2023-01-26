@@ -15,6 +15,7 @@
     flex-wrap: wrap;
 }
 
+
 .music-player{
     background-color: #212121;
     width: 400px;
@@ -22,6 +23,11 @@
     text-align: center;
     border-radius: 40px;
 
+}
+
+.music-player .title{
+    color: #069e4b;
+    margin-bottom: 20px;
 }
 
 nav{
@@ -38,6 +44,7 @@ nav .circle{
     background-color: #fff;
     color: #069e4b;
     box-shadow: 0 5px 10px rgba(5, 125, 59, 0.22);
+    cursor: pointer;
 }
 
 .song-img{
@@ -51,11 +58,13 @@ nav .circle{
     color: #fff;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .music-player p{
     color:#fff;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 #progress{
